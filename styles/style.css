@@ -1,4 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* Fonts */
 .roboto {
     font-family: "Roboto", sans-serif;
+}
+
+/* Shared Style */
+.display-flex {
+    display: flex;
+}
+
+/* Banner Container Styles */
+.banner-container {
+    max-width: 1920px;
+    height: 100vh;
+    margin: 0 auto;
+    backdrop-filter: blur(5px);
+    background-color: rgba(31, 31, 31);
+}
+
+.navbar {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 20px 150px;
+    background-color: black;
+    gap: 50px;
+    align-items: center;
+}
+
+.logo {
+    max-width: 100px;
+
+
+}
+
+.logo-image {
+    width: 100%;
+}
+
+.u-list {
+    align-items: center;
+    gap: 90px;
+}
+
+.search-bar {
+    max-width: 1200px;
+    padding: 20px 300px 20px 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.search-bar::placeholder {
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+.list-item {
+    list-style: none;
+}
+
+.anchor {
+    color: rgb(243, 243, 243);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.parent-text-container {
+    padding: 20px 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-container h1 {
+    font-size: 64px;
+    font-weight: 400;
+    color: white;
+    line-height: 120%;
+    margin-bottom: 14px;
+}
+
+.text-container p {
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(177, 176, 180);
+}
+
+.rating-container {
+    gap: 50px;
+}
+
+.rating-container h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(177, 176, 180);
+    margin-bottom: 14px;
+}
+
+.rating-container h5 {
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
 }

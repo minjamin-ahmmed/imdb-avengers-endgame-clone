@@ -11,19 +11,68 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/b699328ae1.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body class="roboto">
     <section class="banner-container">
-        <div class="navbar">
+        <div class="navbar display-flex">
             <div class="logo">
-                <img src="" alt="">
+                <img class="logo-image" src="images/logo.png" alt="logo of imdb">
             </div>
-            <div class="menu">
+            <nav class="navigation ">
 
+                <ul class="u-list display-flex">
+                    <li class="list-item"><a class="anchor" href="">Menu</a></li>
+                    <form action="">
+                        <input class="search-bar" type="search" placeholder="Search IMDb">
+                    </form>
+                    <li class="list-item"><a class="anchor" href="">IMDb<span
+                                style="color: rgb(22, 179, 214);">Pro</span> </a></li>
+                    <li class="list-item"><a class="anchor" href="">Watchlist</a></li>
+                    <li class="list-item"><a class="anchor" href="">SignIn</a></li>
+                    <li class="list-item"><a class="anchor" href="">En</a></li>
+                </ul>
+
+            </nav>
+
+        </div>
+        <div class="parent-text-container display-flex">
+            <div class="text-container">
+                <h1>Avengers: Endgame</h1>
+                <p>2019 . 12A . 3h 1m</p>
+            </div>
+
+            <div class="rating-container display-flex">
+                <div class="rating">
+                    <h3>IMDb RATING</h3>
+                    <div class="star">
+
+                        <h5>8.4/10</h5>
+                        <p>1.3M</p>
+                    </div>
+                </div>
+
+                <div class="your-rating">
+                    <h3>YOUR RATING</h3>
+                    <div class="rating">
+
+                        <h5 style="color: rgb(22, 179, 214);">Rate</h5>
+                    </div>
+                </div>
+
+                <div class="popularity">
+                    <h3>POPULARITY</h3>
+                    <div class="popular">
+
+                        <h5>164</h5>
+                    </div>
+                </div>
             </div>
         </div>
+
+
     </section>
 </body>
 
